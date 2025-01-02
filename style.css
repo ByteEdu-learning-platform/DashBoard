@@ -15,14 +15,27 @@ body {
 }
 
 .user-info-container {
+  
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin-left: 20px;
-  height: 150px;
-  color: #e46132;
-}
+  color: brown;
+  height: auto;
+  font-weight: 1000;
 
+}
+.user-info-container-div{
+  font-size: 17px;
+  color:brown;
+ font-weight: 1000;
+}
+#loggedUserName {
+  font-size: 30px;
+  font-weight: 1000;
+  color: brown;
+  overflow: hidden;
+  max-width: 150px; ;
+  text-transform: capitalize;
+}
 nav {
   position: relative;
   top: 0;
@@ -77,7 +90,12 @@ a:hover {
 .logout {
   position: absolute;
   bottom: 0;
+  align-items: center;
+  margin: 10px 0 0 10px;
 }
+
+
+
 
 /* Main Section */
 .main {
@@ -117,7 +135,7 @@ a:hover {
   font-size: 12px;
 }
 .main-skills .card button {
-  background: orangered;
+  background: brown;
   color: #fff;
   padding: 7px 15px;
   border-radius: 10px;
